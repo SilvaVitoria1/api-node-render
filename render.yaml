@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: api-node-render
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter # o free (512MB) costuma estourar memoria com o Chrome aberto
+    healthCheckPath: /health
+    envVars:
+      - key: SACI_USER
+        sync: false
+      - key: SACI_PASS
+        sync: false
+      - key: API_KEY
+        sync: false

@@ -1,0 +1,19 @@
+{
+  "name": "api-node-render",
+  "version": "2.0.0",
+  "description": "API que mantem sessao no SACI/ANAC e renova o login sozinho quando o cookie expira",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "puppeteer": "^24.15.0"
+  }
+}

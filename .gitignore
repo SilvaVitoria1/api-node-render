@@ -1,0 +1,7 @@
+node_modules
+.env
+*.log
+cookies.json
+
+# Configuracao local do Claude Code — so faz sentido nesta maquina
+.claude/
